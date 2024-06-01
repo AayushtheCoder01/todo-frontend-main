@@ -8,11 +8,11 @@ import {
  
 export default function AlertUi() {
   return (
-    <Alert>
+    <Alert >
       <RocketIcon className="h-4 w-4" />
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle className="bg-white text-black">Todo created!</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        Your todo is successfully created and saved in Database.
       </AlertDescription>
     </Alert>
   )
