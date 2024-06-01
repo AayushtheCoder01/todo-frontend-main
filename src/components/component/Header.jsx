@@ -32,7 +32,6 @@ export default function Header() {
       }
       if (user.data.login === false) {
         console.log(user.data.msg)
-        navigate('dashboard')
       }
      } catch (error) {
       console.log(error)
